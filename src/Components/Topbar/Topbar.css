@@ -1,0 +1,12 @@
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10em 0 10em;
+}
+
+@media screen and (max-width:425px) {
+    .topbar{
+        margin: 0;
+    }
+}

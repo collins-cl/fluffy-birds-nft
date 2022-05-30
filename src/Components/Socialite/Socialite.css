@@ -1,0 +1,22 @@
+.socialite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.socialite a {
+  font-size: 17px;
+  transition: all 0.5s;
+}
+
+.socialite a:hover {
+  color: #ff7b00;
+}
+
+@media screen and (max-width: 425px) {
+  .socialite a {
+    font-size: 22px;
+    transition: all 0.5s;
+  }
+}

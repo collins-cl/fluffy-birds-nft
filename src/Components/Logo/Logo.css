@@ -1,0 +1,14 @@
+.logo{
+    margin: 0 auto;
+}
+
+.logo a{
+    font-family: 'Rock 3D';
+    color: white;
+    font-size: 30px;
+    transition: all 0.4s ease;
+}
+
+.logo a:hover{
+    color: #ff7b00;
+}

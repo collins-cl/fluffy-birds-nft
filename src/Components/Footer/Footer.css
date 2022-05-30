@@ -1,0 +1,121 @@
+.footer {
+  margin: 0 2em 3em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.get-whitelist h3 {
+  font-size: 14px;
+  font-style: italic;
+  color: rgb(219, 217, 217);
+}
+
+.get-whitelist form {
+  margin-top: 0px;
+}
+
+.get-whitelist form input {
+  width: 100%;
+  background-color: rgb(90, 89, 89);
+  border: none;
+  outline: none;
+  padding: 10px;
+  position: relative;
+}
+
+.get-whitelist form input::placeholder {
+  font-style: italic;
+  color: rgb(201, 201, 201);
+  font-size: 12px;
+}
+
+.arrow {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -33px;
+  padding: 9px 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(165, 164, 164);
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.copy {
+  line-height: 0.5em;
+  font-size: 12px;
+}
+
+.copy a {
+  text-decoration: underline;
+  color: #ff7b00;
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    margin: 0;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .get-whitelist h3 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .get-whitelist form input {
+    width: 100%;
+    background-color: rgb(90, 89, 89);
+    border: none;
+    outline: none;
+    padding: 10px;
+    position: relative;
+  }
+
+  .arrow {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -33px;
+    padding: 8.7px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(165, 164, 164);
+  }
+
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .copy {
+    margin-top: 1em;
+    line-height: 0.5em;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .copy a {
+    text-decoration: underline;
+    color: #ff7b00;
+  }
+}

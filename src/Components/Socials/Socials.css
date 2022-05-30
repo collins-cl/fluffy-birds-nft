@@ -1,0 +1,19 @@
+.socials{
+    display: flex;
+    gap: 15px;
+}
+
+.socials a{
+    font-size: 17px;
+    transition: all 0.5s;
+}
+
+.socials a:hover{
+    color: #ff7b00;
+}
+
+@media screen and (max-width:425px){
+    .socials{
+        display: none;
+    }
+}

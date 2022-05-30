@@ -1,0 +1,124 @@
+.intro {
+  background-image: url(/public/Images/fluffybg.png);
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.small-black-cont {
+  background-color: black;
+  max-width: 425px;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+.cont-1 {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+}
+
+.heading-1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.link-to-enter a {
+  background-color: #ff7b00;
+  padding: 15px 100px;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.link-to-enter a:hover {
+  background-color: white;
+}
+
+hr {
+  display: block;
+  width: 300px;
+}
+
+.cont-2 {
+  font-size: 10px;
+  font-weight: bold;
+  animation: blink-1 1s infinite linear;
+  transition: all ease;
+  text-align: center;
+}
+
+@keyframes blink-1 {
+  0% {
+    color: white;
+  }
+  100% {
+    color: rgb(80, 78, 78);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    background-image: url(/public/Images/fluffybg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 4em;
+  }
+
+  .small-black-cont {
+    background-color: black;
+    max-width: 425px;
+    height: 190px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+  }
+
+  .cont-1 {
+    flex: 7;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .heading-1 {
+    font-size: 23px;
+  }
+
+  .link-to-enter a {
+    background-color: #ff7b00;
+    padding: 15px 125px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+
+  .cont-2 {
+    font-size: 13px;
+    transform: rotate(-90deg);
+  }
+}

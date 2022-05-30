@@ -1,0 +1,107 @@
+.opensea {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 7em;
+  margin-bottom: 3em;
+  padding: 2.5em 5em;
+  background-color: #ff7b00;
+}
+
+.opensea-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buy {
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+  color: black;
+}
+
+.intial {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.link-opensea {
+  text-align: center;
+  color: #ff7b00;
+  background-color: black;
+  font-size: 15px;
+  line-height: 1.3em;
+  padding: 1em 4em;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.link-opensea:hover {
+  background-color: white;
+}
+
+.link-opensea a {
+  color: #ff7b00;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+
+.link-opensea a:hover {
+  color: black;
+}
+
+@media screen and (max-width: 425px) {
+  .opensea {
+    max-width: 400px;
+    padding: 1em 4em;
+  }
+
+  .opensea-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .buy {
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    color: black;
+  }
+
+  .intial {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .link-opensea {
+    font-size: 16px;
+    line-height: 1.3em;
+    padding: 1em 4em;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+
+  .link-opensea:hover {
+    background-color: white;
+  }
+
+  .link-opensea a {
+    color: #ff7b00;
+    font-weight: bold;
+    transition: all 0.4s;
+  }
+
+  .link-opensea a:hover {
+    color: black;
+  }
+}
